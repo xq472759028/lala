@@ -1,0 +1,1014 @@
+@import "base.css";
+
+.layui-layer-dialog {
+    color: #000 !important;
+}
+
+/*住轮播图*/
+.main {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 340px;
+    position: relative;
+}
+
+@media screen and (min-width: 1920px) {
+    .main {
+        height: 460px;
+    }
+}
+
+@media screen and (min-width: 1460px) and (max-width: 1920px) {
+    .main {
+        height: 460px;
+    }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1460px) {
+    .main {
+        height: 340px;
+    }
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /*position: relative;*/
+    overflow: hidden;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide > a > img {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.swiper-button-prev {
+    left: 10% !important;
+    font-weight: bold;
+}
+
+.swiper-button-next {
+    right: 10% !important;
+    font-weight: bold;
+}
+
+/*免费咨询框*/
+.free {
+    position: absolute;
+    width: 970px;
+    height: 130px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 7%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.free-word {
+    margin: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.free-word > span {
+    font-size: 14px;
+}
+
+.free-word > span > i {
+    color: #ffbe31;
+}
+
+.free-choice {
+    margin: 0px 20px;
+    height: 50px;
+}
+
+.free-province {
+    display: inline-block;
+    width: 120px;
+    height: 100%;
+    margin-right: 3px;
+    outline: none;
+    border: none;
+}
+
+.free-city {
+    display: inline-block;
+    width: 180px;
+    height: 100%;
+    margin-right: 3px;
+    outline: none;
+    border: none;
+}
+
+.free-input {
+    display: inline-block;
+    width: 410px;
+    height: 100%;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.free-button {
+    width: 180px;
+    height: 100%;
+    background: #ffce10;
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.free-close {
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+/*主轮播图结束*/
+/*你装修四大模块开始*/
+.fit {
+    width: 100%;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.fit-center {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.fit-list {
+    width: 100%;
+    height: 100%;
+}
+
+.fit-list li {
+    width: 25%;
+    height: 100%;
+    float: left;
+    transition: all 0.5s;
+}
+
+.fit-list li a p {
+    width: 66%;
+    height: 100%;
+    float: left;
+    padding: 0px 15px;
+}
+
+.fit-list li a p b {
+    display: block;
+    color: #333;
+    padding-top: 30px;
+    font-size: 22px;
+}
+
+.fit-list li a p span {
+    display: block;
+    color: #333;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.fit-list li a img {
+    display: block;
+    float: right;
+    margin-right: 30px;
+    width: 58px;
+    height: 58px;
+    margin-top: 21px;
+}
+
+.fit-list li:hover {
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+    transition: all 0.5s;
+    box-shadow: 0px 0px 10px 5px #ccc;
+
+}
+
+/*你装修四大模块结束*/
+/*3D样板间开始*/
+.sample {
+    width: 100%;
+    height: 580px;
+    margin-top: 30px;
+}
+
+.sample-center {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.sample-title {
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sample-title h3 {
+    display: block;
+    font-size: 44px;
+    color: #333;
+    line-height: 50px;
+}
+
+.sample-title span {
+    display: block;
+    font-size: 18px;
+    color: #999;
+    line-height: 50px;
+}
+
+.sample-title span i {
+    color: red;
+}
+
+.sample-content {
+    width: 100%;
+    height: 420px;
+    margin-top: 30px;
+}
+
+.sample-choice {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.sample-list {
+    margin: 0px 15px;
+}
+
+.sample-list li {
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    color: #666;
+}
+
+.sample-list li p {
+    float: left;
+    font-size: 26px;
+    line-height: 40px;
+    padding-right: 15px;
+    border-right: 1px dotted;;
+    margin-right: 35px;
+}
+
+.sample-list li a span {
+    display: block;
+    float: left;
+    font-size: 18px;
+    line-height: 40px;
+    width: 90px;
+    height: 100%;
+    color: #666;
+    text-align: center;
+}
+
+.sample-list li a span i {
+    font-size: 16px;
+    color: #888;
+}
+
+.sample-list li a span:hover, .sample-list li a span i:hover {
+    color: red;
+}
+
+.sample-list li a:last-child span {
+    margin-right: 0px;
+    width: 40px;
+}
+
+.sample-act {
+    float: right;
+    width: 58%;
+    height: 100%;
+}
+
+/*3D样板间结束*/
+/*全屏图开始*/
+.full {
+    width: 100%;
+    height: 90px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.full img {
+    position: absolute;
+    display: block;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+/*全屏图结束*/
+/*优秀设计师开始*/
+.design {
+    width: 100%;
+    height: 890px;
+    margin-top: 30px;
+}
+
+.design-center {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.design-act {
+    width: 100%;
+    height: 730px;
+    margin-top: 20px;
+}
+
+.design-list {
+    width: 100%;
+    height: 100%;
+}
+
+.design-list li {
+    float: left;
+    width: 400px;
+    height: 330px;
+    margin-bottom: 20px;
+}
+
+.design-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.design-photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.design-title {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.design-title span {
+    display: block;
+}
+
+.design-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #111;
+    line-height: 36px;
+}
+
+.design-word {
+    font-size: 14px;
+    color: #666;
+    line-height: 26px;
+}
+
+/*优秀设计师结束*/
+/*最新订单开始*/
+.order {
+    width: 100%;
+    height: 710px;
+    background: #f1f1f1;
+    padding-top: 30px;
+}
+
+.order-list {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.order-title {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.order-title li, .order-content li {
+    width: 150px;
+    height: 100%;
+    float: left;
+    font-size: 16px;
+
+    text-align: center;
+    line-height: 40px;
+}
+
+.order-title li {
+    font-weight: bold;
+    color: #d30c33;
+}
+
+.order-content li {
+    color: #333;
+}
+
+.order-content {
+    width: 100%;
+    height: 40px;
+}
+
+.order-content li p {
+    width: 70%;
+    height: 34px;
+    margin: 0 auto;
+    margin-top: 3px;
+    background: #F2781A;
+    color: #fff;
+    line-height: 34px;
+}
+
+.scroll-box {
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+}
+
+#scroll-list {
+    width: 100%;
+    height: auto;
+}
+
+/*最新订单结束*/
+/*装修攻略开始*/
+.strategy {
+    width: 100%;
+    height: 620px;
+}
+
+.decorate {
+    width: 1200px;
+    height: 482px;
+    margin: 0 auto;
+}
+
+.decorate-state {
+    width: 278px;
+    height: 482px;
+    margin: 0px 10px;
+    float: left;
+    border: 1px solid #eeeeee;
+    transition: all 1s;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.decorate-top {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background: #f1f1f1;
+    overflow: hidden;
+
+}
+
+.decorate-img {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+}
+
+
+.decorate-img img {
+    display: block;
+    width: 45px;
+    height: 45px;
+    /*transform: translateZ(0);*/
+}
+
+.decorate-word {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #111;
+    line-height: 36px;
+    text-align: center;
+    transform: translate3d(0, 0, 0);
+}
+
+.decorate-top-img .decorate-word {
+    color: #fff;
+}
+.decorate-top-shade1{
+    background: url("../image/shadow3.jpg") no-repeat center;
+    background-size: cover;
+}
+.decorate-top-shade2{
+    background: url("../image/shadow1.jpg") no-repeat center;
+    background-size: cover;
+}
+.decorate-top-shade3{
+    background: url("../image/shadow2.jpg") no-repeat center;
+    background-size: cover;
+}
+.decorate-top-shade4{
+    background: url("../image/shadow4.jpg") no-repeat center;
+    background-size: cover;
+}
+.decorate-top-shadow{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.decorate-center {
+    width: 240px;
+    padding: 0px 20px;
+    height: 220px;
+}
+
+.decorate-center p a {
+    display: block;
+    width: 230px;
+    font-size: 14px;
+    color: #111;
+    line-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.decorate-center p a:hover {
+    color: #FF7A0E;
+}
+
+.decorate-more {
+    display: block;
+    width: 120px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #4f4f4f;
+    line-height: 30px;
+}
+
+.decorate-more:hover {
+    background: #00ae67;
+    color: #fff;
+}
+
+/*装修攻略结束*/
+/*装修效果图开始*/
+.trim {
+    width: 100%;
+    height: 560px;
+    background: #f1f1f1;
+}
+
+.trim-center {
+    width: 1200px;
+    height: 430px;
+    margin: 0 auto;
+}
+
+.trim-left {
+    float: left;
+    width: 400px;
+    height: 100%;
+}
+
+/*引入*/
+
+.trim-left .pc-slide {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.trim-left .view .swiper-container {
+    width: 400px;
+    height: 320px;
+    position: relative;
+}
+
+.trim-left .view .swiper-container .swiper-wrapper {
+    height: 320px !important;
+}
+
+.trim-left .view .swiper-wrapper .swiper-slide p {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.trim-left .view .arrow-left {
+    background: url(../image/index_tab_l.png) no-repeat left top;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -25px;
+    width: 28px;
+    height: 51px;
+    z-index: 10;
+}
+
+.trim-left .view .arrow-right {
+    background: url(../image/index_tab_r.png) no-repeat left bottom;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -25px;
+    width: 28px;
+    height: 51px;
+    z-index: 10;
+}
+
+.trim-left .view .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.trim-left .preview {
+    width: 100%;
+    margin-top: 8px;
+    position: relative;
+}
+
+.trim-left .preview .swiper-container {
+    width: 348px;
+    height: 82px;
+    /*margin-left: 35px;*/
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.trim-left .preview .swiper-wrapper {
+    width: 320px;
+}
+
+.trim-left .preview .swiper-slide {
+    width: 87px;
+    height: 82px;
+    cursor: pointer;
+}
+
+.trim-left .preview .arrow-cre-left {
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.trim-left .preview .arrow-cre-left:hover, .preview .arrow-cre-right:hover {
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.trim-left .preview .arrow-cre-right {
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.trim-left .preview .arrow-left {
+    display: inline-block;
+    background: url(../image/feel3.png) no-repeat left top;
+    width: 10px;
+    height: 18px;
+    z-index: 10;
+    margin-left: 5px;
+    margin-top: 32px;
+}
+
+.trim-left .preview .arrow-right {
+    display: inline-block;
+    background: url(../image/feel4.png) no-repeat left bottom;
+    width: 10px;
+    height: 18px;
+    z-index: 10;
+    margin-left: 5px;
+    margin-top: 32px;
+}
+
+.trim-left .preview img {
+    padding: 1px;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.trim-left .preview .active-nav img {
+    padding: 1px;
+    border: 1px solid #219C33;
+    display: block;
+    width: 80px;
+    height: 78px;
+}
+
+/*引入*/
+.trim-right {
+    width: 770px;
+    float: right;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.trim-list {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.trim-list:nth-child(3n) {
+    margin-right: 0;
+}
+
+.trim-list:nth-child(4), .trim-list:nth-child(5), .trim-list:nth-child(6) {
+    margin-bottom: 0;
+}
+
+.trim-list img {
+    width: 100%;
+    height: 100%;
+}
+
+.trim-word {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.trim-appear {
+    width: 100%;
+    height: 430px;
+}
+
+.trim-right .swiper-container {
+    width: 100% !important;
+    height: 430px;
+}
+
+.trim-right .swiper-pagination {
+    bottom: -4px !important;
+}
+.trim-shade {
+    position: absolute;
+    width: 250px;
+    height: 170px;
+    left: 0px;
+    top: -170px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+
+}
+.trim-shade-to{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 0px;
+    bottom: -30px;
+    background: #0cb46a;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+.trim-list:hover .trim-shade {
+    transform: translateY(170px);
+    transition: all 0.3s;
+}
+.trim-list:hover .trim-shade-to {
+    transform: translateY(-30px);
+    transition: all 0.3s;
+}
+
+.trim-shade-word {
+    width: 250px;
+    height: 20px;
+    margin-top: 50px;
+}
+
+.trim-shade-word p {
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 5px;
+    color: #fff;
+}
+.trim-shade-word p span{
+    text-align: right;
+    display: inline-block;
+    width: 108px;
+}
+/*装修效果图结束*/
+/*服务流程开始*/
+.serve {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.serve-center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.serve-list {
+    width: 100%;
+    height: 125px;
+    margin-top: 20px;
+}
+
+.serve-list > li {
+    width: 168px;
+    height: 100px;
+    margin-right: 4px;
+    float: left;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+.serve-list > li:last-child {
+    margin-right: 0px;
+}
+
+.serve-list > li i {
+    display: block;
+    width: 100px;
+    height: 60px;
+    background-size: auto 100%;
+    margin: 0 auto;
+    color: #333;
+}
+
+.icon-1 {
+    background: url("../image/icon_02.png") no-repeat center 100%;
+}
+
+.icon-2 {
+    background: url("../image/icon_11.png") no-repeat center 100%;
+}
+
+.icon-3 {
+    background: url("../image/icon_16.png") no-repeat center 100%;
+}
+
+.icon-4 {
+    background: url("../image/icon_23.png") no-repeat center 100%;
+}
+
+.icon-5 {
+    background: url("../image/icon_04.png") no-repeat center 100%;
+}
+
+.icon-6 {
+    background: url("../image/icon_09.png") no-repeat center 100%;
+}
+
+.icon-7 {
+    background: url("../image/icon_19.png") no-repeat center 100%;
+}
+
+.serve-list > li p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 16px;
+}
+
+.serve-list > li span {
+    display: block;
+    font-size: 14px;
+    color: #999;
+    margin-top: 3px;
+}
+
+.serve-item {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.serve-item li {
+    height: 30px !important;
+}
+
+.serve-item li i {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*横线定位*/
+.serve-item > li em {
+    position: absolute;
+    display: block;
+    left: 101px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 135px;
+    height: 1px;
+    background: #999;
+}
+
+/*服务流程结束*/
